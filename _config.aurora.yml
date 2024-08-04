@@ -14,7 +14,7 @@ site:
   nick: eviwbh
   description: <p>即使是虚拟的也会开心</p>唯有终夜长开眼，报以平生未展眉
   link: '/'
-  language:
+  language: cn
   multi_language: true
   logo: \favicon.ico
   avatar: 
