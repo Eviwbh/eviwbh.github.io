@@ -103,6 +103,9 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: https://github.com/Eviwbh/eviwbh.github.io.git
-  branch: main
+  - type: git
+    repository: https://github.com/Eviwbh/eviwbh.github.io.git
+    branch: main
+  - type: git
+    repository: git@47.116.114.212:/usr/share/nginx/io_eviwbh_com/blog.git
+    branch: master

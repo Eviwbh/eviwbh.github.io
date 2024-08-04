@@ -165,3 +165,40 @@ git remote -v
 git push
 ```
 
+
+
+
+
+
+
+# Git init和Git init --bare的区别
+
+- init：适用于本地仓库初始化，有完整的Git命令集，可以提交`工作空间`的代码和文件。
+- init --bare:：适用于远程仓库初始化，**默认没有工作空间**。
+
+## git init --bare适用于远程仓库
+
+“裸”仓库创建工作空间很简单，配合hook使用，hook就是一些在Git特点动作时候，触发的事件。
+
+## post-receive
+
+我们要在裸仓库内，看到用户提交的工作空间很简单。只需要编写post-receive
+
+```
+# 当前在裸仓库内
+cd hooks
+# 创建并编辑post-receive
+vim post-receive
+
+#!/bin/sh
+git --work-tree=#工作空间# --git-dir=#Git仓库地址# checkout -f
+```
+
+工作空间：服务器上空目录地址，git用户需要有读写权限。
+Git仓库地址：服务器上本仓库地址。
+
+最后赋予执行权限）
+
+```txt
+chmod +x post-receive
+```
