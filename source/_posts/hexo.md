@@ -45,8 +45,6 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 
 ```
 npm install hexo-cli -g
-
-npm install
 ```
 
 ## 生成SSH Keys
@@ -84,7 +82,7 @@ deploy:
   branch: main
 ```
 
-下自动部署工具
+自动部署工具
 
 ```
 npm install hexo-deployer-git --save
@@ -97,3 +95,61 @@ npm install hexo-deployer-git --save
 
 ## Hexo去除代码块行号
 在配置文件-config.yml中，找到highlight，并将line_number：true改为false。
+
+
+
+# Hexo维护
+
+## hexo其他电脑上写博客
+
+### 原设备
+
+在github上创建分支并设置为默认分支
+
+把新的分支拉下来，删除除了.git 文件夹之外的所有文件
+
+```
+git clone ...
+```
+
+把之前源码都克隆到这个新生成的文件夹中
+
+```
+git add .
+git commit –m "新大陆"
+git push
+```
+
+之后就正常更新文章
+
+### 新设备
+
+生成ssh key添加到GitHub账户上
+
+```
+ssh-keygen -t rsa -C "email"
+```
+
+把仓库的源码拉下来
+
+```
+git clone ...
+```
+
+安装好环境
+
+```
+npm install hexo-cli -g
+
+npm instal
+```
+
+之后正常使用
+
+```
+hexo clean 
+hexo g
+hexo d 
+hexo s
+```
+
