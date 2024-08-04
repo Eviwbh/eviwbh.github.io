@@ -112,7 +112,7 @@ npm install hexo-deployer-git --save
 git clone ...
 ```
 
-把之前源码都克隆到这个新生成的文件夹中
+把之前源码(除了.deploy_git文件夹)都克隆到这个新生成的文件夹中
 
 ```
 git add .
