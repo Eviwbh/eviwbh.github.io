@@ -60,6 +60,8 @@ flutter --version：查看flutter版本
 
 ### vscode编译 不允许使用与号(&)
 
+不允许使用与号(&)。& 运算符是为将来使用而保留的；请用双引号将与号引起来("&")，以将其作为字符串的一部分传递。
+
 原因：vscode终端（terminal）默认是powershell，vscode在powershell中输入指令时会出现某种我无法理解的问题
 
 解决方法：将默认终端设置为cmd
