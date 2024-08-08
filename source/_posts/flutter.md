@@ -1,6 +1,6 @@
 ---
 title: flutter
-date: 2024-07-30
+date: 2023-07-14
 tags: 
 categories: 开发经验
 ---
@@ -123,4 +123,12 @@ CustomCard (
 ```
 
 
+
+
+
+
+
+## An error occurred while creating the AVD. See idea.log for details问题
+
+File->Settings->Android SDK->SDK Tools安装Android Emulator
 
