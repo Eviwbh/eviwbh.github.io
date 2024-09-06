@@ -10,17 +10,17 @@
 #! ---------------------------------------------------------------
 site:
   subtitle: even virtual, I'll be happy 
-  author: 暗使开开
-  nick: eviwbh
-  description: <p>即使是虚拟的也会开心</p>唯有终夜长开眼，报以平生未展眉
+  author: EVIWBH
+  nick: eviwbh（我不要当韭菜）
+  description: <p>即使是虚拟的也会开心</p>
   link: '/'
-  language: zh-CN
+  language: cn
   multi_language: true
   logo: \favicon.ico
   avatar: 
   beian:
-    number: ''
-    link: ''
+    number: '豫ICP备2024060513号-2'
+    link: 'https://beian.miit.gov.cn/'
   police_beian:
     number: ''
     link: ''
@@ -52,17 +52,27 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: true
-  Tags: false
   Archives: false
+  Tags: false
+  About: true
   Friends: false
+  projects:
+    name: 'Projects'
+    children:
+      obsidian:
+        name: 'Obsidian Theme'
+        path: 'https://github.com/tridiamond/hexo-theme-obsidian'
+      Aurora:
+        name: 'Aurora Theme'
+        path: 'https://github.com/Aurora/hexo-theme-Aurora'
+
 
 #! ---------------------------------------------------------------
 #! Theme Config
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: false
+  dark_mode: true
   profile_shape: diamond # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
@@ -75,15 +85,20 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
-
   customs:
+    twitter: 
+      icon: '/svg/twiter.svg'
+      link: 'https://x.com/Eviwbh'
     bilibili: 
       icon: '/svg/bilibili.svg'
       link: 'https://space.bilibili.com/344723412'
     qq:
       icon: '/svg/qq.svg'
       link: 'https://qm.qq.com/q/MXqKNejl6g'
-  ##! --- Using IconFont
+    微信:
+      icon: '/svg/wechat.svg'
+      link: 'weixin://dl/chat?wx_5ykziybbu4jnqm'
+  #! --- Using IconFont
   # baidu:
   #   icon: iconfont icon-baidu
   #   link: https://live.bilibili.com/22619211
