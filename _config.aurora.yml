@@ -98,6 +98,9 @@ theme:
 #! ---------------------------------------------------------------
 socials:
   customs:
+    twitter: 
+      icon: '/svg/twiter.svg'
+      link: 'https://x.com/Eviwbh'
     bilibili: 
       icon: '/svg/bilibili.svg'
       link: 'https://space.bilibili.com/344723412'
@@ -107,9 +110,7 @@ socials:
     微信:
       icon: '/svg/wechat.svg'
       link: 'weixin://dl/chat?wx_5ykziybbu4jnqm'
-    twitter: 
-      icon: '/svg/twiter.svg'
-      link: 'https://x.com/Eviwbh'
+    
   #! --- Using IconFont
   # baidu:
   #   icon: iconfont icon-baidu
