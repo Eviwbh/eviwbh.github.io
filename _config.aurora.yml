@@ -14,7 +14,7 @@ site:
   nick: eviwbh（我不要当韭菜）
   description: <p>即使是虚拟的也会开心</p>
   link: '/'
-  language: cn
+  language: zh-CN
   multi_language: true
   logo: \favicon.ico
   avatar: 
@@ -58,12 +58,24 @@ menu:
   Friends: false
   projects:
     name: 'Projects'
+    i18n:
+        zh-CN: '项目'
+        zh-TW: '項目'
+        en: 'Projects'
     children:
       obsidian:
         name: 'Obsidian Theme'
+        i18n:
+          zh-CN: '项目1'
+          zh-TW: '項目1'
+          en: 'Projects1'
         path: 'https://github.com/tridiamond/hexo-theme-obsidian'
       Aurora:
         name: 'Aurora Theme'
+        i18n:
+          zh-CN: '项目2'
+          zh-TW: '項目2'
+          en: 'Projects2'
         path: 'https://github.com/Aurora/hexo-theme-Aurora'
 
 
@@ -86,9 +98,6 @@ theme:
 #! ---------------------------------------------------------------
 socials:
   customs:
-    twitter: 
-      icon: '/svg/twiter.svg'
-      link: 'https://x.com/Eviwbh'
     bilibili: 
       icon: '/svg/bilibili.svg'
       link: 'https://space.bilibili.com/344723412'
@@ -98,6 +107,9 @@ socials:
     微信:
       icon: '/svg/wechat.svg'
       link: 'weixin://dl/chat?wx_5ykziybbu4jnqm'
+    twitter: 
+      icon: '/svg/twiter.svg'
+      link: 'https://x.com/Eviwbh'
   #! --- Using IconFont
   # baidu:
   #   icon: iconfont icon-baidu
