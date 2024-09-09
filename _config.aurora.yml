@@ -56,27 +56,27 @@ menu:
   Tags: false
   About: true
   Friends: false
-  projects:
-    name: 'Projects'
-    i18n:
-        zh-CN: '项目'
-        zh-TW: '項目'
-        en: 'Projects'
-    children:
-      obsidian:
-        name: 'Obsidian Theme'
-        i18n:
-          zh-CN: '项目1'
-          zh-TW: '項目1'
-          en: 'Projects1'
-        path: 'https://github.com/tridiamond/hexo-theme-obsidian'
-      Aurora:
-        name: 'Aurora Theme'
-        i18n:
-          zh-CN: '项目2'
-          zh-TW: '項目2'
-          en: 'Projects2'
-        path: 'https://github.com/Aurora/hexo-theme-Aurora'
+  # projects:
+  #   name: 'Projects'
+  #   i18n:
+  #       zh-CN: '项目'
+  #       zh-TW: '項目'
+  #       en: 'Projects'
+  #   children:
+  #     obsidian:
+  #       name: 'Obsidian Theme'
+  #       i18n:
+  #         zh-CN: '项目1'
+  #         zh-TW: '項目1'
+  #         en: 'Projects1'
+  #       path: 'https://github.com/tridiamond/hexo-theme-obsidian'
+  #     Aurora:
+  #       name: 'Aurora Theme'
+  #       i18n:
+  #         zh-CN: '项目2'
+  #         zh-TW: '項目2'
+  #         en: 'Projects2'
+  #       path: 'https://github.com/Aurora/hexo-theme-Aurora'
 
 
 #! ---------------------------------------------------------------

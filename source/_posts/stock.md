@@ -1,6 +1,7 @@
 ---
 title: 股票
 date: 2024-07-30
+feature: true
 tags: 股票经验教训
 categories: stock
 ---
