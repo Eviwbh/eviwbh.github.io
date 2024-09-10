@@ -1,21 +1,29 @@
 ---
 title: about
-date: 2024-07-29 13:40:35
+date: 2024-09-11 13:40:35
 ---
 
 # 我常用的一些函数和demo
 
-ftp二次封装
+数据访问接口（HTTP）
 
-网络编程（tcp）
+FTP文件传输（C++ FTP二次封装）
 
-io多路复用
+TCP文件传输
+
+socket网络编程（TCP epoll）
+
+io多路复用（多线程 linux多进程）
+
+循环队列（linux信号量 共享内存）
 
 xml函数族
 
 日志类
 
-网络代理（C++）
+网络代理（C++ webserver）
+
+C++框架
 
 
 
