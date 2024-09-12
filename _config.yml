@@ -109,3 +109,16 @@ deploy:
   - type: git
     repository: git@47.116.114.212:/usr/share/nginx/io_eviwbh_com/blog.git
     branch: master
+
+asset_img:
+  enable: true
+  # 图片目录，相对于source目录
+  dir: images
+  # 是否压缩图片
+  compress: true
+  # 压缩质量，0-1之间，默认为0.6
+  quality: 0.1
+  # 是否生成缩略图
+  thumbnail: true
+  # 缩略图大小，默认为120x120
+  thumbnail_size: 120x120
